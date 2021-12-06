@@ -101,7 +101,7 @@ function Home() {
           <Col md="auto">
             {loadingStatus === "loading" ? (
               <Loader />
-            ) : movies.length > 0 ? (
+            ) : movies.length > 0 && movies[0].title ? (
               movies.map((value, index) => <Cards key={index} data={value} />)
             ) : (
               <p className="noArticle">
