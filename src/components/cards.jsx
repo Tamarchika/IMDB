@@ -31,7 +31,7 @@ const Cards = ({ data }) => {
                 <b>Movie rating:</b> {data.rating}
               </Card.Text>
               <Accordion defaultActiveKey="0">
-                <Accordion.Item eventKey="0">
+                <Accordion.Item eventKey="1">
                   <Accordion.Header>
                     <b>Read more</b>
                   </Accordion.Header>
