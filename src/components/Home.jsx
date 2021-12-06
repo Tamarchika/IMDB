@@ -19,7 +19,7 @@ function Home() {
   const sources = [
     "Lord Of The Rings",
     "Inception",
-    "The Hobbit",
+    "The Hobbit: An Unexpected Journey",
     "Titanic",
     "The Witcher",
     "The Conjuring",
